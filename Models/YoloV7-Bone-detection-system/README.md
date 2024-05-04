@@ -62,25 +62,8 @@ The GUI is done using PySide6, so first install it with:
 
 *Fig3: Bone Fracture Detection WebApp made with streamlit.*
 
-## Docker
-
-    docker pull mdciri/bone-fracture-detection:latest
-    docker run -p 8501:8501 mdciri/bone-fracture-detection
-
-## Train, test, detect
-
-The torch model is also available in `./yolov7-p6-bonefracture.pt` and you can evaluate it or perform inference using `test.py` and `detect.py` script respectively of the YOLOv7 repo. On the contrary, if you want to train the model, use `train.py`.
-
-## Results
-
-The evaluation of the 3 different datasets is collected in the `runs/test` folder. For each dataset are saved the predicted labels by the model, the confusion matrix, the F1, P, R, and PR curve plot.
 
 ## License
 
 GNU General Public License v3.0 as the [YOLOv7 lincense](https://github.com/WongKinYiu/yolov7/blob/main/LICENSE.md).
-
-## References
-
-- [A pediatric wrist trauma X-ray dataset (GRAZPEDWRI-DX) for machine learning](https://www.nature.com/articles/s41597-022-01328-z)
-- [YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors](https://arxiv.org/abs/2207.02696)
 
