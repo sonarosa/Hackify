@@ -1,3 +1,4 @@
+!pip install opencv-python==4.5.3
 import os
 import cv2
 import numpy as np
